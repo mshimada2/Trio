@@ -76,13 +76,14 @@ void flip(int & red, int & green, int & blue)
     if(redTemp > greenTemp) 
     {
 
-      blue = redTemp;
-      green = greenTemp;
+      green = redTemp;
+      blue = greenTemp;
     }
 
     else if(redTemp < greenTemp)
     {
       blue = redTemp;
+
     }
 
   }
